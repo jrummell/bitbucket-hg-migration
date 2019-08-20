@@ -1,5 +1,7 @@
 # Bitbucket Mercurial to Git
 
+Powershell scripts that make it easy to convert hg repositories in Bitbucket to git, [since they're removing hg](https://bitbucket.org/blog/sunsetting-mercurial-support-in-bitbucket).
+
 ## Install Mercurial
 
 Install Mercurial, if you haven't already. You can get it from <https://chocolatey.org/packages/hg>
@@ -17,7 +19,9 @@ Install Mercurial, if you haven't already. You can get it from <https://chocolat
 
 ## Get the migration scripts
 
-    > git clone TODO
+    > git clone https://github.com/jrummell/bitbucket-hg-migration
+
+- clone this repository
 
 ## Convert
 
