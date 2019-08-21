@@ -69,7 +69,7 @@ These scripts use the following conventions/assumptions:
 
 - You are converting your Bitbucket hg repository to a new git repository in Bitbucket.
 - When you create a new git repository, it has the same name as the hg repository.
-- You are using SSH keys for authentication with Bitbucket. This isn't necessary, but makes it easier since you don't have to enter a username or password at any point. This is especially handy if your repositories are private.
+- You are using [SSH keys for authentication with Bitbucket](https://confluence.atlassian.com/bitbucket/ssh-keys-935365775.html).
 
 For example, I used the following workflow to migrate about a dozen repositories:
 
